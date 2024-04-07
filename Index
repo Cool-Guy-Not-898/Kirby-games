@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kirby Games</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #ffcc00;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #fff;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        .game-link {
+            display: block;
+            margin-bottom: 20px;
+            font-size: 18px;
+            color: #333;
+            text-decoration: none;
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+        .game-link:hover {
+            background-color: #ffcc00;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kirby Games</h1>
+    </header>
+    <main>
+        <a href="https://www.retrogames.cc/snes-games/kirby-super-star.html" class="game-link" target="_blank">Kirby Super Star</a>
+        <a href="https://www.retrogames.cc/snes-games/kirbys-dream-land-3.html" class="game-link" target="_blank">Kirby's Dream Land 3</a>
+        <a href="https://www.retrogames.cc/snes-games/kirby-no-kirakira-kids.html" class="game-link" target="_blank">Kirby no Kirakira Kids</a>
+        <a href="https://www.retrogames.cc/snes-games/kirbys-avalanche.html" class="game-link" target="_blank">Kirby's Avalanche</a>
+        <a href="https://www.retrogames.cc/snes-games/kirbys-dream-course.html" class="game-link" target="_blank">Kirby's Dream Course</a>
+        <!-- Add more game links as needed -->
+    </main>
+</body>
+</html>
